@@ -1,3 +1,4 @@
+import FizzBuzz.FizzBuzz;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -85,7 +86,7 @@ public class FizzBuzzTest {
         Assert.assertEquals(fb.genererChaine(5), "Buzz");
     }
 
-    //6- on met à jour la méthode créée en 3 pour qu'elle retourne FizzBuzz quand on a un multiple de 3 et de 5
+    //6- on met à jour la méthode créée en 3 pour qu'elle retourne FizzBuzz.FizzBuzz quand on a un multiple de 3 et de 5
     @Test
     public void test_RetourneFizzBuzz() {
 
@@ -93,11 +94,11 @@ public class FizzBuzzTest {
     }
 
     //7- création de la fonction qui prend en paramètre un entier n et la suite des nombres
-    //compris entre 1 et n en remplacant les mutiples de 3 par Fizz, de 5 par Buzz et de 3 et 5 par FizzBuzz
+    //compris entre 1 et n en remplacant les mutiples de 3 par Fizz, de 5 par Buzz et de 3 et 5 par FizzBuzz.FizzBuzz
     @Test
     public void test_RetourneSuiteNombre() {
 
-        String suite = "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz";
+        String suite = "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz.FizzBuzz 16 17 Fizz 19 Buzz";
 
         Assert.assertEquals(fb.genererSuite(20), suite);
     }

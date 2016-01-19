@@ -1,3 +1,5 @@
+package FizzBuzz;
+
 /**
  * Created by nsekecharles on 19/01/2016.
  */
