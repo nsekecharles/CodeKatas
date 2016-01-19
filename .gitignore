@@ -4,3 +4,9 @@ target/classes/FizzBuzz.FizzBuzz.class
 target/test-classes/FizzBuzzTest.class
 
 target/classes/FizzBuzz.class
+
+target/classes/FizzBuzz/FizzBuzz.class
+
+target/classes/Palindrome/PalindromeControlleur.class
+
+target/test-classes/PalindromeControlleurTest.class
