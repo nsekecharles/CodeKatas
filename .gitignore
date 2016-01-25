@@ -10,3 +10,15 @@ target/classes/FizzBuzz/FizzBuzz.class
 target/classes/Palindrome/PalindromeControlleur.class
 
 target/test-classes/PalindromeControlleurTest.class
+
+target/classes/HashTag/HashTag.class
+
+target/classes/NombrePremier/NombrePremier.class
+
+target/classes/Reverse/Reverse.class
+
+target/test-classes/HashTagTest.class
+
+target/test-classes/NombrePremierTest.class
+
+target/test-classes/ReverseTest.class
